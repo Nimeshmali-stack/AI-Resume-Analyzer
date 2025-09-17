@@ -21,11 +21,11 @@ const Resumecard = ({ resume }: { resume: Resume }) => {
       </div>
 
       {/* Image Container */}
-      <div className="w-full h-56 flex items-center justify-center bg-white rounded-lg border border-gray-200 shadow-sm">
+      <div className="w-100 h-60 flex items-center justify-center bg-white rounded-lg border border-gray-200 shadow-sm">
         <img
           src={imagePath}
           alt={`${jobTitle} at ${companyName} resume preview`}
-          className="w-auto h-48 object-contain rounded-lg"
+          className="w-100 h-60 object-contain rounded-lg"
         />
       </div>
     </Link>
